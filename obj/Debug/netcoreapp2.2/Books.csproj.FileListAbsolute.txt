@@ -1,0 +1,11 @@
+/Users/Joel/workspace/csharp/exercises/Books/bin/Debug/netcoreapp2.2/Books.deps.json
+/Users/Joel/workspace/csharp/exercises/Books/bin/Debug/netcoreapp2.2/Books.runtimeconfig.json
+/Users/Joel/workspace/csharp/exercises/Books/bin/Debug/netcoreapp2.2/Books.runtimeconfig.dev.json
+/Users/Joel/workspace/csharp/exercises/Books/bin/Debug/netcoreapp2.2/Books.dll
+/Users/Joel/workspace/csharp/exercises/Books/bin/Debug/netcoreapp2.2/Books.pdb
+/Users/Joel/workspace/csharp/exercises/Books/obj/Debug/netcoreapp2.2/Books.csprojAssemblyReference.cache
+/Users/Joel/workspace/csharp/exercises/Books/obj/Debug/netcoreapp2.2/Books.csproj.CoreCompileInputs.cache
+/Users/Joel/workspace/csharp/exercises/Books/obj/Debug/netcoreapp2.2/Books.AssemblyInfoInputs.cache
+/Users/Joel/workspace/csharp/exercises/Books/obj/Debug/netcoreapp2.2/Books.AssemblyInfo.cs
+/Users/Joel/workspace/csharp/exercises/Books/obj/Debug/netcoreapp2.2/Books.dll
+/Users/Joel/workspace/csharp/exercises/Books/obj/Debug/netcoreapp2.2/Books.pdb

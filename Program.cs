@@ -11,6 +11,15 @@ namespace Books
         public string Author { get; set; }
         public DateTime ReleaseDate { get; set; }
         public double Price { get; set; }
+
+        public void DisplayDetails()
+        {
+            Console.WriteLine($"Title: {Title}");
+            Console.WriteLine($"SubTitle: {SubTitle}");
+            Console.WriteLine($"Author: {Author}");
+            Console.WriteLine($"Release Date: {ReleaseDate}");
+            Console.WriteLine($"Price: ${Price}");
+        }
     }
     class Program
     {
@@ -19,7 +28,7 @@ namespace Books
             Book book1 = new Book();
             book1.Author = "Joel Mondesir";
             book1.Title = "Life According To Joel";
-            book1.SubTitle = "Live Yiur Best Life";
+            book1.SubTitle = "Live Your Best Life";
             book1.ReleaseDate = new DateTime(2019, 01, 05);
             book1.Price = 9.99;
 
@@ -47,13 +56,15 @@ namespace Books
             {
                 sum += book.Price;
             };
- foreach(Book book in shelf) {
-                Console.WriteLine($"Title: {book.Title}");
-                Console.WriteLine($"SubTitle: {book.SubTitle}");
-                Console.WriteLine($"Author: {book.Author}");
-                Console.WriteLine($"Release Date: {book.ReleaseDate}");
-                Console.WriteLine($"Price: ${book.Price}");
+            foreach (Book book in shelf)
+            {
+                // Console.WriteLine($"Title: {book.Title}");
+                // Console.WriteLine($"SubTitle: {book.SubTitle}");
+                // Console.WriteLine($"Author: {book.Author}");
+                // Console.WriteLine($"Release Date: {book.ReleaseDate}");
+                // Console.WriteLine($"Price: ${book.Price}");
 
+                book.DisplayDetails();
                 Console.WriteLine($"---------------------------------------------------------");
             }
             // Dictionary<string, string> book1 = new Dictionary<string, string>() {

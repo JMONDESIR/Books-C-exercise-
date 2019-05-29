@@ -6,6 +6,15 @@ namespace Books
 {
     class Book
     {
+        // this is a constructor
+        public Book()
+        {
+            Title = "";
+            SubTitle = "";
+            Author = "";
+            ReleaseDate = DateTime.Now;
+            Price = double.MaxValue;
+        }
         public string Title { get; set; }
         public string SubTitle { get; set; }
         public string Author { get; set; }
@@ -19,6 +28,12 @@ namespace Books
             Console.WriteLine($"Author: {Author}");
             Console.WriteLine($"Release Date: {ReleaseDate}");
             Console.WriteLine($"Price: ${Price}");
+        }
+
+        public void DisplayDetails(string header)
+        {
+            Console.WriteLine(header);
+            DisplayDetails();
         }
     }
     class Program
@@ -64,7 +79,7 @@ namespace Books
                 // Console.WriteLine($"Release Date: {book.ReleaseDate}");
                 // Console.WriteLine($"Price: ${book.Price}");
 
-                book.DisplayDetails();
+                book.DisplayDetails("A random BOOK header");
                 Console.WriteLine($"---------------------------------------------------------");
             }
             // Dictionary<string, string> book1 = new Dictionary<string, string>() {
